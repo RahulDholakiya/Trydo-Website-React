@@ -1,0 +1,30 @@
+/* home page */
+
+.trydo-logo{
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+
+.trydo-image{
+ width: 225px; 
+}
+
+.header-routes{
+  position: absolute;
+  top: 15%;
+  left: 49%;
+}
+
+.header-routes a{
+  margin-left: 43px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.buy-now-btn{
+  font-size: 19px;
+  padding: 0px 20px 0px 20px;
+  margin-left: 65px;
+}
