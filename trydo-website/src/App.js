@@ -1,11 +1,16 @@
-import React from 'react';
-import './App.css';
-import HeaderPage from './Component/HeaderPage';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./Component/HomePage";
 
 function App() {
   return (
     <div>
-      <HeaderPage />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
