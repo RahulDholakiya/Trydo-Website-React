@@ -8,6 +8,7 @@ import asset2 from "../Images/asset 2.png";
 import asset3 from "../Images/asset 3.png";
 import HomeAbout from "./HomeAbout";
 import HomeService from "./HomeService";
+import OurWorks from "./OurWorks";
 
 const HomePage = () => {
   return (
@@ -80,6 +81,7 @@ const HomePage = () => {
       </div>
       <HomeAbout />
       <HomeService />
+      <OurWorks />
     </div>
   );
 };

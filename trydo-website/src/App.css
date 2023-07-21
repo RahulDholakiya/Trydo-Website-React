@@ -144,23 +144,107 @@ body {
   font-size: 26px;
 }
 
-.request-custom-service{
+.request-custom-service {
   font-size: 28px;
   font-weight: 700;
   margin-top: 50px;
 }
 
-.requ{
+.requ {
   border-bottom: 1px solid red;
 }
 
-.request-custom-service:hover{
+.request-custom-service:hover {
   cursor: pointer;
   color: #f9004d;
   border-bottom: 1px solid red;
-  width: 19%;
+  width: 68%;
 }
 
-.svg-icon{
+.svg-icon {
   color: #f9004d;
+  font-size: 60px;
+}
+
+.svg-icon:hover {
+  color: white;
+}
+
+.business-website-box {
+  display: flex;
+  margin-top: 404px;
+}
+
+.main-service {
+  display: flex;
+}
+
+.box-paragraph {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.website-development-box {
+  margin-left: 140px;
+}
+
+.business-stratagy-box {
+  margin-left: 170px;
+}
+
+.business-stratagy-box:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #f9004d;
+  border-radius: 17px;
+  padding: 22px;
+}
+
+.website-development-box:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #f9004d;
+  border-radius: 17px;
+  padding: 22px;
+}
+
+.marketing-mobile-box {
+  display: flex;
+  margin-left: 780px;
+  margin-top: 30px;
+}
+
+.mobile-app-development-box {
+  margin-left: 163px;
+}
+
+.marketing-reporting-box:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #f9004d;
+  border-radius: 17px;
+  padding: 22px;
+}
+
+.mobile-app-development-box:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #f9004d;
+  border-radius: 17px;
+  padding: 22px;
+}
+
+/* our work */
+
+.our-work{
+  font-size: 72px;
+}
+
+.our-work-paragraph{
+  font-size: 23px;
+}
+
+.our-works-main{
+  margin-left: 120px;
+  margin-top: 250px;
 }
